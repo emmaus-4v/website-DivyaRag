@@ -60,6 +60,25 @@ a:hover {
     text-decoration: underline;
 }
 
+.Jonah{
+    font-weight: bold;
+}
+
+.corbyn{
+    font-weight: bold;
+}
+
+.daniel{
+    font-weight: bold;
+}
+
+.jack{
+    font-weight: bold;
+}
+
+.zach{
+    font-weight: bold;
+}
 
 /* navigatiebalk */
 nav ul {
@@ -83,11 +102,11 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: #aaaaaa;
+    background-color: #97a2c7;
 }
 
 nav li a.active {
-    background-color: skyblue;
+    background-color: rgb(135, 158, 235);
 }
 
 .paragraaf2{
