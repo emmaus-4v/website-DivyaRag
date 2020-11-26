@@ -39,6 +39,7 @@ footer {
 img.index1 {
     float: left;
     margin-right: 15px;
+    margin-bottom: 10px;
     width: 300px;
 }
 
@@ -60,24 +61,57 @@ a:hover {
     text-decoration: underline;
 }
 
-.Jonah{
+
+
+h3 {
     font-weight: bold;
+    background-color: rgb(190, 241, 237);
 }
 
-.corbyn{
-    font-weight: bold;
+.jonah {
+    height: 200px;
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 10px;
 }
 
-.daniel{
-    font-weight: bold;
+.corbyn {
+    clear:both;
 }
 
-.jack{
-    font-weight: bold;
+.Corbyn {
+    height: 200px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.daniel {
+    height: 200px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 
-.zach{
-    font-weight: bold;
+.Daniel {
+    clear: both;
+}
+
+.jack {
+    clear: both;
+}
+
+.Jack {
+    height: 200px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+}
+.zach {
+    height: 200px;
+    float:left;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 /* navigatiebalk */
@@ -113,5 +147,7 @@ nav li a.active {
     clear: both;
 }
 
-
+.mail {
+    clear: both;
+}
 
