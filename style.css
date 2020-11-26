@@ -47,8 +47,25 @@ img.index1 {
 img.index2 {
     float: right;
     margin-left: 15px;
-    margin-bottom: 15px;
+    height: 300px;
+}
+
+img.merch {
+    float: right;
+    margin-left: 15px;
     width: 300px;
+}
+
+.paragraaf2{
+    clear: both;
+}
+
+.paragraaf3 {
+    clear: both;
+}
+
+.platenmaatschappij {
+    font-weight: bold;
 }
 
 .smalltext {
@@ -155,10 +172,6 @@ nav li a:hover {
 
 nav li a.active {
     background-color: rgb(135, 158, 235);
-}
-
-.paragraaf2{
-    clear: both;
 }
 
 .mail {
