@@ -23,8 +23,9 @@ article {
 
 
 header {
-    color: skyblue;
+    color: #6699ff;
     text-align: center;
+    font-weight: bold;
 }
 
 
@@ -66,6 +67,7 @@ img.merch {
 
 .platenmaatschappij {
     font-weight: bold;
+    font-size: 20px;
 }
 
 .smalltext {
@@ -80,8 +82,6 @@ a {
 a:hover {
     text-decoration: underline;
 }
-
-
 
 h3 {
     font-weight: bold;
@@ -150,7 +150,7 @@ nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #dddddd;
+    background-color: #99ffcc;
     overflow: hidden;
 }
 
@@ -160,14 +160,15 @@ nav ul li {
 
 nav li a {
     display: block;
-    color: white;
+    color: black;
+    font-weight: bold;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 nav li a:hover {
-    background-color: #97a2c7;
+    background-color: #ff99ff;
 }
 
 nav li a.active {
