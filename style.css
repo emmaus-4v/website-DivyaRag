@@ -38,6 +38,16 @@ footer {
 
 /* specifieke stijlen */
 
+#logo1 {
+    float: left;
+    height: 70px;
+}
+
+#logo2{
+    float: right;
+    height: 70px;
+}
+
 img.index1 {
     float: left;
     margin-right: 15px;
@@ -48,7 +58,7 @@ img.index1 {
 img.index2 {
     float: right;
     margin-left: 15px;
-    height: 300px;
+    width: 150px;
 }
 
 img.merch {
@@ -86,12 +96,6 @@ img.onlythebeginning {
 
 .paragraaf3 {
     background-color: rgb(19,241. 237);
-}
-
-.platenmaatschappij {
-    font-weight: bold;
-    font-size: 20px;
-    margin-bottom: 10px;
 }
 
 .tour {
