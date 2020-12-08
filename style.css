@@ -90,6 +90,7 @@ img.onlythebeginning {
     margin-right: 15px;
     margin-bottom: 15px;
 }
+
 .paragraaf2{
     clear: both;
 }
@@ -103,6 +104,10 @@ img.onlythebeginning {
     float: right;
     margin-left: 15px;
     margin-bottom: 15px;
+}
+
+.link-website {
+    text-align: center;
 }
 
 .smalltext {
