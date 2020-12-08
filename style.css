@@ -58,7 +58,8 @@ img.index1 {
 img.index2 {
     float: right;
     margin-left: 15px;
-    width: 150px;
+    margin-bottom: 15px;
+    width: 200px;
 }
 
 img.merch {
@@ -106,10 +107,14 @@ img.onlythebeginning {
     margin-bottom: 15px;
 }
 
-.link-website {
-    text-align: center;
+#samenwerking {
+    clear: both;
 }
 
+.link {
+    text-align: center;
+    font-weight: bold;
+}
 .smalltext {
     font-size: 0.7em;
 }
