@@ -9,7 +9,6 @@ html, body {
     font: Verdana, Arial, Sans-Serif;
 }
 
-
 main {
     margin: 0 auto;
     width: 700px;
@@ -53,13 +52,14 @@ img.index1 {
     margin-right: 15px;
     margin-bottom: 10px;
     width: 300px;
+    border: 5px black groove;
 }
 
 img.index2 {
     float: right;
     margin-left: 15px;
     margin-bottom: 15px;
-    width: 200px;
+    width: 150px;
 }
 
 img.merch {
@@ -72,7 +72,7 @@ img.merch {
 .merch-links {
     float: left;
     width: 200px;
-    border: 5px, black dashed;
+    border: 5px black dashed;
 }
 
 .merch-midden {
@@ -82,7 +82,7 @@ img.merch {
 
 .merch-rechts{
     width: 200px;
-    border: 5px, black, dashed;
+    border: 5px black dashed;
 }
 
 img.onlythebeginning {
