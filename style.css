@@ -92,6 +92,10 @@ img.onlythebeginning {
     margin-bottom: 15px;
 }
 
+.tgtatbo {
+    clear: both;
+}
+
 .paragraaf2{
     clear: both;
 }
@@ -192,6 +196,13 @@ h3 {
     margin-right: 10px;
     margin-bottom: 40px;
     border: 5px black groove;
+}
+
+.foto-8-letters {
+    float: left;
+    height: 130px;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 .album-cover {
