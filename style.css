@@ -27,7 +27,6 @@ header {
     font-weight: 50px;
 }
 
-
 footer {
     text-align: center;
     padding-bottom: 10px;
@@ -69,20 +68,10 @@ img.merch {
     width: 300px;
 }
 
-.merch-links {
-    float: left;
+.merch-kleding {
     width: 200px;
-    border: 5px black dashed;
-}
-
-.merch-midden {
-    width: 200px;
-    border: 5px;
-}
-
-.merch-rechts{
-    width: 200px;
-    border: 5px black dashed;
+    margin: 4px;
+    border: 2px #aaaaff dashed;
 }
 
 img.onlythebeginning {
