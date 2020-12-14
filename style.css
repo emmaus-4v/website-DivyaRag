@@ -33,6 +33,29 @@ footer {
     clear: both;
 }
 
+/* animaties */
+
+@keyframes kleurverandering {
+    0% {
+        color: #ffccff 
+    }
+    25% {
+        color: #ccccff
+    }
+    50% {
+        color: #99ccff
+    }
+    75% {
+        color: #66ccff
+    }
+    100% {
+        color: #33ccff
+    }
+}
+
+.kleurverandering {
+    animation: kleurverandering 5s infinite;
+}
 
 /* specifieke stijlen */
 
