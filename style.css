@@ -53,19 +53,23 @@ footer {
     }
 }
 
-@keyframes slide {
-    0% {
-        
-    }
-    100% {
-        
-    }
-
-}
 .kleurverandering {
     animation: kleurverandering 5s infinite;
 }
 
+@keyframes slide-rechts{
+    0% {
+        left: -1000px;
+    }
+    100% {
+        right: 0px;
+    }
+
+}
+
+.slide-rechts {
+    animation: slide-rechts 10s;
+}
 /* specifieke stijlen */
 
 #logo1 {
