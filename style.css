@@ -37,22 +37,31 @@ footer {
 
 @keyframes kleurverandering {
     0% {
-        color: #ffccff 
+        color: #ffccff; 
     }
     25% {
-        color: #ccccff
+        color: #ccccff;
     }
     50% {
-        color: #99ccff
+        color: #99ccff;
     }
     75% {
-        color: #66ccff
+        color: #66ccff;
     }
     100% {
-        color: #33ccff
+        color: #33ccff;
     }
 }
 
+@keyframes slide {
+    0% {
+        
+    }
+    100% {
+        
+    }
+
+}
 .kleurverandering {
     animation: kleurverandering 5s infinite;
 }
@@ -175,7 +184,7 @@ h3 {
     float: left;
     margin-bottom: 10px;
     margin-right: 10px;
-    border: 5px black groove;
+    border: 5px #99ccff groove;
 }
 
 .Corbyn {
@@ -183,7 +192,7 @@ h3 {
     float: left;
     margin-right: 10px;
     margin-bottom: 10px;
-    border: 5px black groove;
+    border: 5px #66ccff groove;
 }
 
 .daniel {
@@ -191,7 +200,7 @@ h3 {
     float: left;
     margin-right: 10px;
     margin-bottom: 10px;
-    border: 5px black groove;
+    border: 5px #ccccff groove;
 }
 
 .Jack {
@@ -199,7 +208,7 @@ h3 {
     float: left;
     margin-right: 10px;
     margin-bottom: 40px;
-    border: 5px black groove;
+    border: 5px #ffccff groove;
 
 }
 .zach {
@@ -207,7 +216,7 @@ h3 {
     float:left;
     margin-right: 10px;
     margin-bottom: 40px;
-    border: 5px black groove;
+    border: 5px #33ccff groove;
 }
 
 .foto-8-letters {
