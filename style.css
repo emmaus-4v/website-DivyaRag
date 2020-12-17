@@ -59,17 +59,46 @@ footer {
 
 @keyframes slide-rechts{
     0% {
-        left: -1000px;
+        left: -200px;
     }
     100% {
-        right: 0px;
+        left: 0px;
     }
 
 }
 
-.slide-rechts {
-    animation: slide-rechts 10s;
+#slide-rechts {
+    position: relative;
+    animation: slide-rechts 5s;
 }
+
+@keyframes slide-links {
+    0% {
+        right: -200px;
+    }
+    100% {
+        right: 0px
+    }
+}
+
+#slide-links {
+    position: relative;
+    animation: slide-links 5s;
+}
+
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+#fade-in {
+    animation: fade-in 5s;
+}
+
 /* specifieke stijlen */
 
 #logo1 {
@@ -101,7 +130,7 @@ img.merch {
     float: right;
     margin-left: 10px;
     margin-bottom: 10px;
-    width: 300px;
+    width: 200px;
 }
 
 .merch-kleding {
@@ -110,6 +139,9 @@ img.merch {
     border: 2px #aaaaff dashed;
 }
 
+h4.lijst-merch {
+    clear: both;
+}
 img.onlythebeginning {
     width: 200px;
     float: left;
@@ -118,10 +150,6 @@ img.onlythebeginning {
 }
 
 .tgtatbo {
-    clear: both;
-}
-
-.paragraaf2{
     clear: both;
 }
 
@@ -170,6 +198,8 @@ h3 {
 .media {
     background-color: white
 }
+
+ /* foto's + headers mapje leden*/
 
 .Daniel {
     clear: both;
