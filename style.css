@@ -37,19 +37,19 @@ footer {
 
 @keyframes kleurverandering {
     0% {
-        color: #ffccff; 
+        color: #ff99ff; 
     }
     25% {
-        color: #ccccff;
+        color: #9999ff;
     }
     50% {
-        color: #99ccff;
+        color: #6699ff;
     }
     75% {
-        color: #66ccff;
+        color: #3399ff;
     }
     100% {
-        color: #33ccff;
+        color: #0099ff;
     }
 }
 
@@ -119,18 +119,19 @@ img.index1 {
     border: 5px black groove;
 }
 
-img.index2 {
-    float: right;
-    margin-left: 15px;
+.wdw2016 {
+    float: left;
+    margin-right: 15px;
     margin-bottom: 15px;
+    margin-top: 15px;
     width: 150px;
 }
 
 img.merch {
     float: right;
+    width: 200px;
     margin-left: 10px;
     margin-bottom: 10px;
-    width: 200px;
 }
 
 .merch-kleding {
@@ -142,6 +143,7 @@ img.merch {
 h4.lijst-merch {
     clear: both;
 }
+
 img.onlythebeginning {
     width: 200px;
     float: left;
@@ -162,6 +164,7 @@ img.onlythebeginning {
     float: right;
     margin-left: 15px;
     margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 #samenwerking {
@@ -172,6 +175,7 @@ img.onlythebeginning {
     text-align: center;
     font-weight: bold;
 }
+
 .smalltext {
     font-size: 0.7em;
 }
@@ -267,6 +271,10 @@ h3 {
     margin-bottom: 10px;
 }
 
+.video-fallin {
+    text-align: center;
+}
+
 #info-album {
     margin-top: 10px;
 }
@@ -291,6 +299,7 @@ nav li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    border-left: 1px black dashed;
 }
 
 nav li a:hover {
